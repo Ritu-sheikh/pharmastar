@@ -1,0 +1,260 @@
+export const pharmaciesData = [
+  {
+    id: 'ph-1',
+    name: 'Apex Care 24x7 Pharmacy',
+    tagline: 'Premier emergency prescription & critical care provider',
+    address: '142 Medical Hub Blvd, Sector 4, Metro Central',
+    landmark: 'Opposite City General Hospital Emergency Gate',
+    distanceKm: 0.6,
+    rating: 4.9,
+    reviewCount: 328,
+    phone: '+91 98765 43210',
+    alternatePhone: '+91 98765 43211',
+    email: 'dispensary@apexcarehealth.org',
+    isOpen: true,
+    is24Hours: true,
+    openingHours: 'Open 24 Hours / 7 Days a week',
+    schedule: {
+      monday: 'Open 24 Hours',
+      tuesday: 'Open 24 Hours',
+      wednesday: 'Open 24 Hours',
+      thursday: 'Open 24 Hours',
+      friday: 'Open 24 Hours',
+      saturday: 'Open 24 Hours',
+      sunday: 'Open 24 Hours'
+    },
+    features: [
+      '24/7 Emergency Counter',
+      'Express Home Delivery (< 45 min)',
+      'Free Blood Pressure Check',
+      'Wheelchair Accessible Ramp',
+      'Drive-Through Pickup Window',
+      'Certified Clinical Pharmacist'
+    ],
+    chiefPharmacist: {
+      name: 'Dr. Marcus Vance, PharmD',
+      experience: '16 Years Experience',
+      regNo: 'PCI-88412-MH'
+    },
+    licenseNumber: 'FDA-LIC-2023-8841A',
+    verified: true,
+    acceptsInsurance: true,
+    deliveryAvailable: true,
+    deliveryFee: 'Free over ₹500 (or ₹40)',
+    stockAccuracyRate: '99.4%'
+  },
+  {
+    id: 'ph-2',
+    name: 'MediPlus Chemist & Druggist',
+    tagline: 'Neighborhood family drugstore with compounding services',
+    address: '88 Green Avenue, West District, Metro Central',
+    landmark: 'Adjacent to Metro Gate 2 & St. Jude Clinic',
+    distanceKm: 1.2,
+    rating: 4.7,
+    reviewCount: 215,
+    phone: '+91 98123 45678',
+    alternatePhone: '+91 98123 45679',
+    email: 'support@medipluswest.com',
+    isOpen: true,
+    is24Hours: false,
+    openingHours: '8:00 AM - 11:00 PM (Daily)',
+    schedule: {
+      monday: '8:00 AM - 11:00 PM',
+      tuesday: '8:00 AM - 11:00 PM',
+      wednesday: '8:00 AM - 11:00 PM',
+      thursday: '8:00 AM - 11:00 PM',
+      friday: '8:00 AM - 11:00 PM',
+      saturday: '8:30 AM - 10:30 PM',
+      sunday: '9:00 AM - 8:00 PM'
+    },
+    features: [
+      'Same-Day Delivery',
+      'Chronic Care Refill Discounts',
+      'Compounding Lab',
+      'Diabetes Care Support',
+      'Digital Prescriptions Accepted'
+    ],
+    chiefPharmacist: {
+      name: 'Sarah Jenkins, RPh',
+      experience: '11 Years Experience',
+      regNo: 'PCI-55913-DL'
+    },
+    licenseNumber: 'FDA-LIC-2021-4412B',
+    verified: true,
+    acceptsInsurance: true,
+    deliveryAvailable: true,
+    deliveryFee: '₹50 flat rate',
+    stockAccuracyRate: '98.1%'
+  },
+  {
+    id: 'ph-3',
+    name: 'HealthFirst Community Pharmacy',
+    tagline: 'Trusted clinical advice & specialty wellness medications',
+    address: '210 Oakwood Road, Suite 102, Highland Park',
+    landmark: 'Inside Oakwood Wellness Plaza',
+    distanceKm: 2.4,
+    rating: 4.8,
+    reviewCount: 189,
+    phone: '+91 97654 32109',
+    alternatePhone: '+91 97654 32108',
+    email: 'hello@healthfirstpharmacy.org',
+    isOpen: true,
+    is24Hours: false,
+    openingHours: '7:30 AM - 10:30 PM (Mon-Sat), 9 AM - 6 PM (Sun)',
+    schedule: {
+      monday: '7:30 AM - 10:30 PM',
+      tuesday: '7:30 AM - 10:30 PM',
+      wednesday: '7:30 AM - 10:30 PM',
+      thursday: '7:30 AM - 10:30 PM',
+      friday: '7:30 AM - 10:30 PM',
+      saturday: '8:00 AM - 9:00 PM',
+      sunday: '9:00 AM - 6:00 PM'
+    },
+    features: [
+      'Senior Citizen Special Discounts',
+      'Vaccination & Immunization Clinic',
+      'Online Medicine Hold for 3 Hours',
+      'Wheelchair Friendly Access',
+      'Direct Doctor Tele-Consult Link'
+    ],
+    chiefPharmacist: {
+      name: 'David Chen, PharmD, BCPS',
+      experience: '14 Years Experience',
+      regNo: 'PCI-71204-KA'
+    },
+    licenseNumber: 'FDA-LIC-2022-9011C',
+    verified: true,
+    acceptsInsurance: true,
+    deliveryAvailable: true,
+    deliveryFee: 'Free on orders above ₹600',
+    stockAccuracyRate: '97.8%'
+  },
+  {
+    id: 'ph-4',
+    name: 'Apollo Life Chemist 24/7',
+    tagline: 'High-volume emergency supplier with broad ICU & rare drug catalog',
+    address: '45 Express Highway Junction, Near Trauma Center',
+    landmark: 'Highway Exit 12B, North Corridor',
+    distanceKm: 3.5,
+    rating: 4.6,
+    reviewCount: 410,
+    phone: '+91 99012 34567',
+    alternatePhone: '+91 99012 34568',
+    email: 'emergency@apollolifechemist.com',
+    isOpen: true,
+    is24Hours: true,
+    openingHours: 'Open 24 Hours / 7 Days a week',
+    schedule: {
+      monday: 'Open 24 Hours',
+      tuesday: 'Open 24 Hours',
+      wednesday: 'Open 24 Hours',
+      thursday: 'Open 24 Hours',
+      friday: 'Open 24 Hours',
+      saturday: 'Open 24 Hours',
+      sunday: 'Open 24 Hours'
+    },
+    features: [
+      'Rare Medicine Sourcing',
+      '24/7 Critical Delivery',
+      'Cold Chain Temperature-Controlled Storage',
+      'Surgical Equipment Rental',
+      'Oxygen Cylinder Dispatch'
+    ],
+    chiefPharmacist: {
+      name: 'Anita Desai, M.Pharm',
+      experience: '18 Years Experience',
+      regNo: 'PCI-39184-MH'
+    },
+    licenseNumber: 'FDA-LIC-2020-1123D',
+    verified: true,
+    acceptsInsurance: true,
+    deliveryAvailable: true,
+    deliveryFee: '₹60 (Express 24/7)',
+    stockAccuracyRate: '99.1%'
+  },
+  {
+    id: 'ph-5',
+    name: 'WellCare Discount Pharmacy',
+    tagline: 'Lowest prices on quality generic medications & surgical supplies',
+    address: '12 Bazaar Cross Road, Downtown Commerce Hub',
+    landmark: 'Next to Central Bank & Municipal Market',
+    distanceKm: 4.1,
+    rating: 4.4,
+    reviewCount: 95,
+    phone: '+91 98450 12345',
+    alternatePhone: '+91 98450 12346',
+    email: 'counter@wellcarediscount.com',
+    isOpen: true,
+    is24Hours: false,
+    openingHours: '9:00 AM - 9:00 PM (Mon-Sat)',
+    schedule: {
+      monday: '9:00 AM - 9:00 PM',
+      tuesday: '9:00 AM - 9:00 PM',
+      wednesday: '9:00 AM - 9:00 PM',
+      thursday: '9:00 AM - 9:00 PM',
+      friday: '9:00 AM - 9:00 PM',
+      saturday: '9:00 AM - 7:00 PM',
+      sunday: 'Closed'
+    },
+    features: [
+      'Generic Medicine Price Match',
+      'Bulk Strip Discounts',
+      'Quick In-Store Pickup',
+      'Prescription Consultation'
+    ],
+    chiefPharmacist: {
+      name: 'Robert Miller, RPh',
+      experience: '9 Years Experience',
+      regNo: 'PCI-21045-TN'
+    },
+    licenseNumber: 'FDA-LIC-2019-3321E',
+    verified: true,
+    acceptsInsurance: false,
+    deliveryAvailable: false,
+    deliveryFee: 'In-store pickup only',
+    stockAccuracyRate: '95.6%'
+  },
+  {
+    id: 'ph-6',
+    name: "St. Luke's Charitable Pharmacy",
+    tagline: 'Subsidized health supplies, essential drugs and compassionate care',
+    address: '77 Hospital Drive, North Wing Ground Floor',
+    landmark: 'Inside St. Luke General Hospital Campus',
+    distanceKm: 5.3,
+    rating: 4.9,
+    reviewCount: 142,
+    phone: '+91 98220 54321',
+    alternatePhone: '+91 98220 54322',
+    email: 'dispensary@stlukescholastic.org',
+    isOpen: true,
+    is24Hours: false,
+    openingHours: '8:00 AM - 8:00 PM (Daily)',
+    schedule: {
+      monday: '8:00 AM - 8:00 PM',
+      tuesday: '8:00 AM - 8:00 PM',
+      wednesday: '8:00 AM - 8:00 PM',
+      thursday: '8:00 AM - 8:00 PM',
+      friday: '8:00 AM - 8:00 PM',
+      saturday: '8:30 AM - 6:00 PM',
+      sunday: '9:00 AM - 3:00 PM'
+    },
+    features: [
+      'Subsidized Essential Medications',
+      'Donation-Backed Patient Relief Fund',
+      'Maternal & Pediatric Special Care',
+      'Certified Clinical Consultations',
+      'Wheelchair Accessibility'
+    ],
+    chiefPharmacist: {
+      name: 'Elena Rostova, PharmD',
+      experience: '20 Years Experience',
+      regNo: 'PCI-19044-WB'
+    },
+    licenseNumber: 'FDA-LIC-2024-5510F',
+    verified: true,
+    acceptsInsurance: true,
+    deliveryAvailable: false,
+    deliveryFee: 'In-store pickup only',
+    stockAccuracyRate: '98.5%'
+  }
+];
